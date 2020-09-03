@@ -1,0 +1,63 @@
+/**app.wxss**/
+.container {
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  font-family: PingFangSC-Light,helvetica,'Heiti SC';
+} 
+
+view,image,text,navigator{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+
+}
+
+view,text{
+  font-family: PingFangSC-Light,helvetica,'Heiti SC';
+  font-size: 29rpx;
+  color: #333;
+}
+
+
+
+/* search 区域 s */
+.search {
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+  height: 88rpx;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.search__input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 690rpx;
+  height: 56rpx;
+  background-color: #ededed;
+  border-radius: 8rpx;
+}
+
+.search__icon {
+  width: 28rpx;
+  height: 28rpx;
+  background: url(https://huanghanzhilian-test.oss-cn-beijing.aliyuncs.com/cheers/mall/miniprogram/icon/icon_search.png) center no-repeat;
+  background-size: 100%;
+}
+
+.search__text {
+  padding-left: 10rpx;
+  height: 42rpx;
+  line-height: 42rpx;
+  font-size: 30rpx;
+  color: #666666;
+}
+/* search 区域 e */
+
+@keyframes refresh-spin-rotate {
+  100% {
+    transform: rotate(360deg)
+  }
+}

@@ -1,0 +1,112 @@
+<!--pages/category/category.skeleton.wxml-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="container">
+      <scroll-view class="nav-wrap">
+        <view class="nav">
+          <view class="nav-item">
+            <text class="nav-item__text">员工精选</text>
+          </view>
+          <view class="nav-item">
+            <text class="nav-item__text">人气好物</text>
+          </view>
+          <view class="nav-item">
+            <text class="nav-item__text">满2件享3折</text>
+          </view>
+          <view class="nav-item">
+            <text class="nav-item__text">消暑美食</text>
+          </view>
+        </view>
+      </scroll-view>
+      <swiper class="main">
+        <swiper-item>
+          <scroll-view class="subcate-wrap" scroll-y="true">
+            <view class="subcate">
+              <view class="subcate__title"></view>
+              <view class="subcate__content">
+                <view class="goods-list">
+                  <view class="goods-wrap">
+                    
+                    <view class="goods__item">
+                      <view class="goods__item-block">
+                        <view class="goods__item-wrap">
+                          <image class="goods__image"></image>
+                          <view class="goods__info">
+                            <text class="goods__name">母亲节礼物-舒适安睡组合</text>
+                            <text class="goods__price">￥25</text>
+                          </view>
+                        </view>
+                      </view>
+                    </view>
+
+                    <view class="goods__item">
+                      <view class="goods__item-block">
+                        <view class="goods__item-wrap">
+                          <image class="goods__image"></image>
+                          <view class="goods__info">
+                            <text class="goods__name">母亲节礼物-舒适安睡组合</text>
+                            <text class="goods__price">￥25</text>
+                          </view>
+                        </view>
+                      </view>
+                    </view>
+
+                    <view class="goods__item">
+                      <view class="goods__item-block">
+                        <view class="goods__item-wrap">
+                          <image class="goods__image"></image>
+                          <view class="goods__info">
+                            <text class="goods__name">母亲节礼物-舒适安睡组合</text>
+                            <text class="goods__price">￥25</text>
+                          </view>
+                        </view>
+                      </view>
+                    </view>
+
+                    <view class="goods__item">
+                      <view class="goods__item-block">
+                        <view class="goods__item-wrap">
+                          <image class="goods__image"></image>
+                          <view class="goods__info">
+                            <text class="goods__name">母亲节礼物-舒适安睡组合</text>
+                            <text class="goods__price">￥25</text>
+                          </view>
+                        </view>
+                      </view>
+                    </view>
+
+                    <view class="goods__item">
+                      <view class="goods__item-block">
+                        <view class="goods__item-wrap">
+                          <image class="goods__image"></image>
+                          <view class="goods__info">
+                            <text class="goods__name">母亲节礼物-舒适安睡组合</text>
+                            <text class="goods__price">￥25</text>
+                          </view>
+                        </view>
+                      </view>
+                    </view>
+
+                    <view class="goods__item">
+                      <view class="goods__item-block">
+                        <view class="goods__item-wrap">
+                          <image class="goods__image"></image>
+                          <view class="goods__info">
+                            <text class="goods__name">母亲节礼物-舒适安睡组合</text>
+                            <text class="goods__price">￥25</text>
+                          </view>
+                        </view>
+                      </view>
+                    </view>
+
+                  </view>
+                </view>
+              </view>
+            </view>
+          </scroll-view>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+</template>
+

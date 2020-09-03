@@ -1,0 +1,12 @@
+<!--components/goodItem/index.wxml-->
+<view class="goods__item">
+  <view class="goods__item-block">
+    <view class="goods__item-wrap">
+      <image class="goods__image" src="{{ localItem.pic }}"></image>
+      <view class="goods__info">
+        <text class="goods__name">{{ localItem.name }}</text>
+        <text class="goods__price">￥{{ localItem.price }}</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": " ",
+  "window": {
+    "enablePullDownRefresh": true
+  },
+  "usingComponents": {
+  	"newItemList": "/components/newItemList/index",
+  	"Loading": "../../../components/loading/index"
+  }
+}

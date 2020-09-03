@@ -1,0 +1,7 @@
+function test(item) {
+  return item
+};
+
+module.exports = ({
+  test: test
+});

@@ -1,0 +1,17 @@
+/* components/newItemList/index.wxss */
+
+.goods-list {
+  padding: 0 20rpx;
+  background-color: #fff;
+}
+
+.goods-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.item-wrap {
+  width: 345rpx;
+}

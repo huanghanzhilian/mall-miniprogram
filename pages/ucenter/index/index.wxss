@@ -1,0 +1,142 @@
+/* pages/ucenter/index/index.wxss */
+page{
+  height: 100%;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+.container{
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f4f4f4;
+}
+
+.user-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 30.25rpx;
+  width: 100%;
+  height: 280rpx;
+  background-color: #333;
+}
+
+.user-info__avatar {
+  width: 148rpx;
+  height: 148rpx;
+  border-radius: 50%;
+  border: 4rpx solid #fff;
+}
+
+.user-info__box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30rpx;
+  height: 85rpx;
+}
+
+.user-info__name {
+  height: 45rpx;
+  line-height: 45rpx;
+  font-size: 37.5rpx;
+  color: #fff;
+}
+
+.user-info__btn {
+  margin-left: 10rpx;
+  border-radius: 50%;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.user-menu {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.user-menu__item {
+  float: left;
+  width: 33.33333%;
+  height: 187.5rpx;
+  border-right: 1px solid rgba(0,0,0,.15);
+  border-bottom: 1px solid rgba(0,0,0,.15);
+  text-align: center;
+}
+
+.user-menu__item--no-border-r {
+  border-right: 0;
+}
+
+.user-menu__item--no-border-b {
+  border-bottom: 0;
+}
+
+.user-menu__item-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.user-menu__icon {
+  display: block;
+  height: 52.803rpx;
+  width: 52.803rpx;
+  margin: 0 auto 16rpx;
+}
+
+.user-menu__text {
+  display: block;
+  height: 24rpx;
+  width: 100%;
+  font-size: 24rpx;
+  color:#333;
+}
+
+.user-menu__icon--order {
+  background: url(https://huanghanzhilian-test.oss-cn-beijing.aliyuncs.com/cheers/mall/miniprogram/icon/user_menu_icon.png) 0 -437.5rpx no-repeat;
+  background-size: 52.803rpx;
+}
+
+.user-menu__icon--coupon {
+  background: url(https://huanghanzhilian-test.oss-cn-beijing.aliyuncs.com/cheers/mall/miniprogram/icon/user_menu_icon.png) 0 -62.4997rpx no-repeat;
+  background-size: 52.803rpx;
+}
+
+.user-menu__icon--gift {
+  background: url(https://huanghanzhilian-test.oss-cn-beijing.aliyuncs.com/cheers/mall/miniprogram/icon/user_menu_icon.png) 0 -187.5rpx no-repeat;
+  background-size: 52.803rpx;
+}
+
+.user-menu__icon--address {
+  background: url(https://huanghanzhilian-test.oss-cn-beijing.aliyuncs.com/cheers/mall/miniprogram/icon/user_menu_icon.png) 0 0 no-repeat;
+  background-size: 52.803rpx;
+}
+
+.user-menu__icon--security {
+  background: url(https://huanghanzhilian-test.oss-cn-beijing.aliyuncs.com/cheers/mall/miniprogram/icon/user_menu_icon.png) 0 -500rpx no-repeat;
+  background-size: 52.803rpx;
+}
+
+.user-menu__icon--kefu {
+  background: url(https://huanghanzhilian-test.oss-cn-beijing.aliyuncs.com/cheers/mall/miniprogram/icon/user_menu_icon.png) 0 -312.5rpx no-repeat;
+  background-size: 52.803rpx;
+}
+
+.user-menu__icon--help {
+  background: url(https://huanghanzhilian-test.oss-cn-beijing.aliyuncs.com/cheers/mall/miniprogram/icon/user_menu_icon.png) 0 -250rpx no-repeat;
+  background-size: 52.803rpx;
+}
+
+.user-menu__icon--feedback {
+  background: url(https://huanghanzhilian-test.oss-cn-beijing.aliyuncs.com/cheers/mall/miniprogram/icon/user_menu_icon.png) 0 -125rpx no-repeat;
+  background-size: 52.803rpx;
+}
+

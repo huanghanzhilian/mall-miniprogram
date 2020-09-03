@@ -1,0 +1,31 @@
+<!--pages/catalog/catalog.wxml-->
+<view class="container">
+  <view class="search">
+    <navigator url="/pages/search/search" class="search__input">
+      <image class="search__icon"></image>
+      <text class="search__text">商品搜索,共2000款好物</text>
+    </navigator>
+  </view>
+  <view class="catalog">
+    <scroll-view class="side-nav">
+      <view bindtap="handleTapTabBarItem" class="side-nav__item {{ currentIndex === index ? 'side-nav__item--active': '' }}" wx:for="{{ categoryList }}" data-id="{{ item._id }}" data-index="{{ index }}" wx:key="index">{{ item.name }}</view>
+    </scroll-view>
+    <scroll-view class="cate-view">
+      <navigator url="" class="cate-banner">
+        <image class="cate-banner__image" src="{{ categoryList[currentIndex].icon }}"></image>
+        <view class="cate-banner__text">{{ categoryList[currentIndex].description }}</view>
+      </navigator>
+      <view class="cate-hd">
+        <text class="cate-hd__line"></text>
+        <text class="cate-hd__text">{{ categoryList[currentIndex].keywords }}</text>
+        <text class="cate-hd__line"></text>
+      </view>
+      <view class="cate-bd">
+        <view bindtap="handleTapSubCate" data-cate-id="{{ categoryList[currentIndex]._id }}" data-sub-cate-id="{{ item._id }}" data-index="{{ index }}" class="cate-bd__item {{(index+1) % 3 == 0 ? 'cate-bd__item--last' : ''}}" wx:for="{{ subCate }}" wx:key="index">
+          <image class="cate-bd__icon" src="{{ item.icon }}"></image>
+          <text class="cate-bd__text">{{ item.name }}</text>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

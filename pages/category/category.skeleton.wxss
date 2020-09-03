@@ -1,0 +1,65 @@
+/*pages/category/category.skeleton.wxss*/
+.sk-container {
+  height: 100%;
+}
+
+.sk-container .nav-wrap {
+  border-bottom: none;
+}
+
+.sk-container .subcate__content {
+  overflow: hidden;
+}
+
+.sk-container .nav-item__text {
+  line-height: 45rpx;
+  font-size: 30rpx;
+  background-color: #f2f3f5;
+  color: #f2f3f5;
+}
+
+.sk-container .goods-list {
+  padding: 0 20rpx;
+  background-color: #fff;
+}
+
+.sk-container .goods-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.sk-container .goods__item {
+  position: relative;
+  margin-bottom: 30rpx;
+  width: 345rpx;
+  border-radius: 4rpx;
+  overflow: hidden;
+}
+
+.sk-container .item-wrap {
+  width: 345rpx;
+}
+
+.sk-container .goods__image {
+  display: block;
+  margin-bottom: 10rpx;
+  width: 345rpx;
+  height: 345rpx;
+  background-color: #f2f3f5;
+}
+
+.sk-container .goods__name {
+  display: block;
+  margin-bottom: 14rpx;
+  background-color: #f2f3f5;
+  color: #f2f3f5;
+}
+
+.sk-container .goods__price {
+  display: block;
+  width: 30%;
+  background-color: #f2f3f5;
+  color: #f2f3f5;
+}

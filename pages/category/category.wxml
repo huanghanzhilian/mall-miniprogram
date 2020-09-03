@@ -1,0 +1,27 @@
+<!--pages/category/category.wxml-->
+<import src="category.skeleton.wxml"></import>
+<template is="skeleton" wx:if="{{ loading && category.subCategoryList[currentIndex].loaded === false }}"></template>
+<Loading wx:if="{{ loading }}"></Loading>
+<view class="container" wx:if="{{ loaded }}">
+  <scroll-view class="nav-wrap" scroll-x="true" scroll-into-view="nav-item-{{currentIndex}}" scroll-with-animation="{{true}}">
+    <view class="nav">
+      <view bindtap="handleNavItemTap" wx:for="{{category.subCategoryList}}" wx:key="index" class="nav-item {{ currentIndex === index ? 'nav-item__active':'' }} {{ index == 0 ? 'nav-item__first' : ''}} {{ index == category.subCategoryList.length-1 ? 'nav-item__last' : '' }}" data-index="{{ index }}" id="nav-item-{{index}}">
+        <text class="nav-item__text">{{ item.name }}</text>
+      </view>
+    </view>
+  </scroll-view>
+  <swiper bindchange="handleSwiperChange" class="main" current="{{ currentIndex }}" indicatorDots="{{ false }}">
+    <swiper-item wx:for="{{ category.subCategoryList }}" wx:for-item="subCate" wx:key="index">
+      <scroll-view wx:if="{{ subCate.loaded }}" scroll-y="true" class="subcate-wrap" bindscrolltolower="handleScrollToLower" lowerThreshold="50">
+        <view class="subcate">
+          <view class="subcate__title">{{ subCate.description }}</view>
+          <view class="subcate__content">
+            <newItemList bindtapitem="handleTapItem" itemList="{{ subCate.itemList }}"></newItemList>
+          </view>
+        </view>
+        <view class="ft-tip" wx:if="{{ !subCate.hasMore }}">横向滑动切换其他分类</view>
+      </scroll-view>
+    </swiper-item>
+  </swiper>
+</view>
+<wxs module="wxs" src="../../wxs/index.wxs" />

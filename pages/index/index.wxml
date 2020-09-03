@@ -1,0 +1,276 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="search">
+    <navigator url="/pages/search/search" class="search__input">
+      <image class="search__icon"></image>
+      <text class="search__text">商品搜索,共2000款好物</text>
+    </navigator>
+  </view>
+  <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="1000">
+    <swiper-item class="banner__item">
+      <navigator class="banner__item-block" url="">
+        <image src="http://yanxuan.nosdn.127.net/65091eebc48899298171c2eb6696fe27.jpg" class="banner__image"></image>
+      </navigator>
+    </swiper-item>
+    <swiper-item class="banner__item">
+      <navigator class="banner__item-block" url="">
+        <image src="http://yanxuan.nosdn.127.net/bff2e49136fcef1fd829f5036e07f116.jpg" class="banner__image"></image>
+      </navigator>
+    </swiper-item>
+  </swiper>
+  <view class="navbar">
+    <navigator url="" class="navbar__item">
+      <image class="navbar__image" src="https://yanxuan.nosdn.127.net/c6fd8835a6400b7da7a016ad85506b69.png"></image>
+      <text class="navbar__text">新品首发</text>
+    </navigator>
+    <navigator url="" class="navbar__item">
+      <image class="navbar__image" src="https://yanxuan.nosdn.127.net/c6fd8835a6400b7da7a016ad85506b69.png"></image>
+      <text class="navbar__text">新品首发</text>
+    </navigator>
+    <navigator url="" class="navbar__item">
+      <image class="navbar__image" src="https://yanxuan.nosdn.127.net/c6fd8835a6400b7da7a016ad85506b69.png"></image>
+      <text class="navbar__text">新品首发</text>
+    </navigator>
+    <navigator url="" class="navbar__item">
+      <image class="navbar__image" src="https://yanxuan.nosdn.127.net/c6fd8835a6400b7da7a016ad85506b69.png"></image>
+      <text class="navbar__text">新品首发</text>
+    </navigator>
+    <navigator url="" class="navbar__item">
+      <image class="navbar__image" src="https://yanxuan.nosdn.127.net/c6fd8835a6400b7da7a016ad85506b69.png"></image>
+      <text class="navbar__text">新品首发</text>
+    </navigator>
+  </view>
+  <view class="m-section m-section--brand">
+    <view class="m-section__header">
+      <navigator class="m-section__title" url="">
+        <text class="m-section__title-text">品牌制造商直供</text>
+      </navigator>
+    </view>
+    <view class="m-section__content">
+      <view class="goods__item">
+        <navigator class="goods__item-block">
+          <view class="goods__item-wrap">
+            <image class="goods__image" src="http://yanxuan.nosdn.127.net/76638fb8e6990aadf837ce761c3b7399.jpg"></image>
+            <view class="goods__info">
+              <text class="goods__name">CK制造商</text>
+              <text class="goods__price">39</text>
+              <text class="goods__unit">元起</text>
+            </view>
+          </view>
+        </navigator>
+      </view>
+      <view class="goods__item">
+        <navigator class="goods__item-block">
+          <view class="goods__item-wrap">
+            <image class="goods__image" src="http://yanxuan.nosdn.127.net/4ea3f1e60dd77c45c218e503d721a1ed.jpg"></image>
+            <view class="goods__info">
+              <text class="goods__name">CK制造商</text>
+              <text class="goods__price">39</text>
+              <text class="goods__unit">元起</text>
+            </view>
+          </view>
+        </navigator>
+      </view>
+      <view class="goods__item">
+        <navigator class="goods__item-block">
+          <view class="goods__item-wrap">
+            <image class="goods__image" src="http://yanxuan.nosdn.127.net/abcfa79205679db51198adc19c184dd1.jpg"></image>
+            <view class="goods__info">
+              <text class="goods__name">CK制造商</text>
+              <text class="goods__price">39</text>
+              <text class="goods__unit">元起</text>
+            </view>
+          </view>
+        </navigator>
+      </view>
+      <view class="goods__item">
+        <navigator class="goods__item-block">
+          <view class="goods__item-wrap">
+            <image class="goods__image" src="http://yanxuan.nosdn.127.net/b5cd73d3b310bad02539412f064d4ea1.jpg"></image>
+            <view class="goods__info">
+              <text class="goods__name">CK制造商</text>
+              <text class="goods__price">39</text>
+              <text class="goods__unit">元起</text>
+            </view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class="m-section m-section--new-goods">
+    <view class="m-section__header">
+      <navigator class="m-section__title" url="">
+        <text class="m-section__title-text">新品首发</text>
+      </navigator>
+    </view>
+    <view class="m-section__content">
+      <view class="goods__item">
+        <navigator class="goods__item-block">
+          <view class="goods__item-wrap">
+            <image class="goods__image" src="http://yanxuan.nosdn.127.net/76638fb8e6990aadf837ce761c3b7399.jpg"></image>
+            <view class="goods__info">
+              <text class="goods__name">CK制造商</text>
+              <text class="goods__price">￥29</text>
+            </view>
+          </view>
+        </navigator>
+      </view>
+      <view class="goods__item">
+        <navigator class="goods__item-block">
+          <view class="goods__item-wrap">
+            <image class="goods__image" src="http://yanxuan.nosdn.127.net/76638fb8e6990aadf837ce761c3b7399.jpg"></image>
+            <view class="goods__info">
+              <text class="goods__name">CK制造商</text>
+              <text class="goods__price">￥29</text>
+            </view>
+          </view>
+        </navigator>
+      </view>
+      <view class="goods__item">
+        <navigator class="goods__item-block">
+          <view class="goods__item-wrap">
+            <image class="goods__image" src="http://yanxuan.nosdn.127.net/76638fb8e6990aadf837ce761c3b7399.jpg"></image>
+            <view class="goods__info">
+              <text class="goods__name">CK制造商</text>
+              <text class="goods__price">￥29</text>
+            </view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class="m-section m-section--popular">
+    <view class="m-section__header">
+      <navigator class="m-section__title" url="">
+        <text class="m-section__title-text">人气推荐</text>
+      </navigator>
+    </view>
+    <view class="m-section__content">
+      <view class="goods__item">
+        <navigator class="goods__item-block">
+          <view class="goods__item-wrap">
+            <image class="goods__image" src="http://yanxuan.nosdn.127.net/76638fb8e6990aadf837ce761c3b7399.jpg"></image>
+            <view class="goods__info">
+              <text class="goods__name">CK制造商</text>
+              <text class="goods__desc">一级桑蚕丝，吸湿透气柔软</text>
+              <text class="goods__price">￥29</text>
+            </view>
+          </view>
+        </navigator>
+      </view>
+      <view class="goods__item">
+        <navigator class="goods__item-block">
+          <view class="goods__item-wrap">
+            <image class="goods__image" src="http://yanxuan.nosdn.127.net/76638fb8e6990aadf837ce761c3b7399.jpg"></image>
+            <view class="goods__info">
+              <text class="goods__name">CK制造商</text>
+              <text class="goods__desc">一级桑蚕丝，吸湿透气柔软</text>
+              <text class="goods__price">￥29</text>
+            </view>
+          </view>
+        </navigator>
+      </view>
+      <view class="goods__item">
+        <navigator class="goods__item-block">
+          <view class="goods__item-wrap">
+            <image class="goods__image" src="http://yanxuan.nosdn.127.net/76638fb8e6990aadf837ce761c3b7399.jpg"></image>
+            <view class="goods__info">
+              <text class="goods__name">CK制造商</text>
+              <text class="goods__desc">一级桑蚕丝，吸湿透气柔软</text>
+              <text class="goods__price">￥29</text>
+            </view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class="m-section m-section--topic">
+    <view class="m-section__header">
+      <navigator class="m-section__title" url="">
+        <text class="m-section__title-text">专题精选</text>
+      </navigator>
+    </view>
+    <view class="m-section__content">
+      <scroll-view scroll-x="true" class="m-section__list">
+        <view class="goods__item">
+          <navigator class="goods__item-block">
+            <view class="goods__item-wrap">
+              <image class="goods__image" src="http://yanxuan.nosdn.127.net/76638fb8e6990aadf837ce761c3b7399.jpg"></image>
+              <view class="goods__info">
+                <text class="goods__name">CK制造商</text>
+                <text class="goods__price">￥29</text>
+                <text class="goods__desc">一级桑蚕丝，吸湿透气柔软</text>
+              </view>
+            </view>
+          </navigator>
+        </view>
+        <view class="goods__item">
+          <navigator class="goods__item-block">
+            <view class="goods__item-wrap">
+              <image class="goods__image" src="http://yanxuan.nosdn.127.net/76638fb8e6990aadf837ce761c3b7399.jpg"></image>
+              <view class="goods__info">
+                <text class="goods__name">CK制造商</text>
+                <text class="goods__price">￥29</text>
+                <text class="goods__desc">一级桑蚕丝，吸湿透气柔软</text>
+              </view>
+            </view>
+          </navigator>
+        </view>
+        <view class="goods__item">
+          <navigator class="goods__item-block">
+            <view class="goods__item-wrap">
+              <image class="goods__image" src="http://yanxuan.nosdn.127.net/76638fb8e6990aadf837ce761c3b7399.jpg"></image>
+              <view class="goods__info">
+                <text class="goods__name">CK制造商</text>
+                <text class="goods__price">￥29</text>
+                <text class="goods__desc">一级桑蚕丝，吸湿透气柔软</text>
+              </view>
+            </view>
+          </navigator>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <view class="m-section m-section--goods-grid">
+    <view class="m-section__header">
+      <navigator class="m-section__title" url="">
+        <text class="m-section__title-text">餐具</text>
+      </navigator>
+    </view>
+    <view class="m-section__content">
+      <view class="goods__item">
+        <navigator class="goods__item-block">
+          <view class="goods__item-wrap">
+            <image class="goods__image" src="http://yanxuan.nosdn.127.net/c39d54c06a71b4b61b6092a0d31f2335.png"></image>
+            <view class="goods__info">
+              <text class="goods__name">CK制造商</text>
+              <text class="goods__price">￥29</text>
+            </view>
+          </view>
+        </navigator>
+      </view>
+      <view class="goods__item">
+        <navigator class="goods__item-block">
+          <view class="goods__item-wrap">
+            <image class="goods__image" src="http://yanxuan.nosdn.127.net/49e26f00ca4d0ce00f9960d22c936738.png"></image>
+            <view class="goods__info">
+              <text class="goods__name">CK制造商</text>
+              <text class="goods__price">￥29</text>
+            </view>
+          </view>
+        </navigator>
+      </view>
+      <view class="goods__item">
+        <navigator class="goods__item-block">
+          <view class="goods__item-wrap">
+            <image class="goods__image" src="http://yanxuan.nosdn.127.net/4d3d3eaeb872860539d7faa59f9f84e9.png"></image>
+            <view class="goods__info">
+              <text class="goods__name">CK制造商</text>
+              <text class="goods__price">￥29</text>
+            </view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

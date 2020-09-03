@@ -1,0 +1,3 @@
+<!--components/loading/index.wxml-->
+<view class="page loading" wx:if="{{type==1}}"></view>
+<view class="module loading" wx:if="{{type==2}}"></view>

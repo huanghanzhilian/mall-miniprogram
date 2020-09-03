@@ -1,0 +1,6 @@
+<!--components/newItemList/index.wxml-->
+<view class="goods-list">
+  <view class="goods-wrap">
+    <goodItem bindtap="handleTapItem" data-index="{{index}}" data-item="{{item}}" class="item-wrap" wx:for="{{ itemGoodsList }}" wx:key="index" item="{{item}}"></goodItem>
+  </view>
+</view>

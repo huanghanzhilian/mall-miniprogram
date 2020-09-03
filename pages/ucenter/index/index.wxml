@@ -1,0 +1,78 @@
+<!--pages/ucenter/index/index.wxml-->
+<view class="container">
+  <view class="user-info">
+    <image class="user-info__avatar" src="https://wx.qlogo.cn/mmopen/vi_32/KVAXdR4T6z0ujCTf796DiaupxiaWKbw4f4xibiagMOtjK0EWl3x9coBeJP06ibYrYMYAibrJZeSFNxCHGtXIhtPq60ag/132"></image>
+    <view class="user-info__box">
+      <text class="user-info__name">是是是</text>
+    </view>
+    <image class='user-info__btn' src='/static/images/icon/address_right.png'></image>
+  </view>
+  <view class="user-menu">
+    <view class="user-menu__item">
+      <navigator class="user-menu__item-block">
+        <text class="user-menu__icon user-menu__icon--order"></text>
+        <text class="user-menu__text">我的订单</text>
+      </navigator>
+    </view>
+    <view class="user-menu__item">
+      <navigator class="user-menu__item-block">
+        <text class="user-menu__icon user-menu__icon--coupon"></text>
+        <text class="user-menu__text">优惠券</text>
+      </navigator>
+    </view>
+    <view class="user-menu__item user-menu__item--no-border-r">
+      <navigator class="user-menu__item-block">
+        <text class="user-menu__icon user-menu__icon--gift"></text>
+        <text class="user-menu__text">礼品卡</text>
+      </navigator>
+    </view>
+    <view class="user-menu__item">
+      <navigator class="user-menu__item-block">
+        <text class="user-menu__icon user-menu__icon--address"></text>
+        <text class="user-menu__text">我的收藏</text>
+      </navigator>
+    </view>
+    <view class="user-menu__item">
+      <navigator class="user-menu__item-block">
+        <text class="user-menu__icon user-menu__icon--security"></text>
+        <text class="user-menu__text">我的足迹</text>
+      </navigator>
+    </view>
+    <view class="user-menu__item user-menu__item--no-border-r">
+      <navigator class="user-menu__item-block">
+        <text class="user-menu__icon user-menu__icon--kefu"></text>
+        <text class="user-menu__text">会员福利</text>
+      </navigator>
+    </view>
+    <view class="user-menu__item">
+      <navigator class="user-menu__item-block">
+        <text class="user-menu__icon user-menu__icon--address"></text>
+        <text class="user-menu__text">地址管理</text>
+      </navigator>
+    </view>
+    <view class="user-menu__item">
+      <navigator class="user-menu__item-block">
+        <text class="user-menu__icon user-menu__icon--security"></text>
+        <text class="user-menu__text">账号安全</text>
+      </navigator>
+    </view>
+    <view class="user-menu__item user-menu__item--no-border-r">
+      <navigator class="user-menu__item-block">
+        <text class="user-menu__icon user-menu__icon--kefu"></text>
+        <text class="user-menu__text">联系客服</text>
+      </navigator>
+    </view>
+    <view class="user-menu__item user-menu__item--no-border-b">
+      <navigator class="user-menu__item-block">
+        <text class="user-menu__icon user-menu__icon--help"></text>
+        <text class="user-menu__text">帮助中心</text>
+      </navigator>
+    </view>
+    <view class="user-menu__item user-menu__item--no-border-b">
+      <navigator class="user-menu__item-block">
+        <text class="user-menu__icon user-menu__icon--feedback"></text>
+        <text class="user-menu__text">意见反馈</text>
+      </navigator>
+    </view>
+  </view>
+</view>
